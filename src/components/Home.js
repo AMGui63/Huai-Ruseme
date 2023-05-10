@@ -36,7 +36,12 @@ const Home = () => {
             <a href="#contact" onClick={() => navChange("contact")}>
               Get in Touch
             </a>
-            <a className="mr-5" href="#">
+            <a
+              className="mr-5"
+              href="assets/huai-resume.pdf"
+              target="_blank"
+              onclick="window.open('assets/huai-resume.pdf')"
+            >
               My resume
             </a>
           </div>
